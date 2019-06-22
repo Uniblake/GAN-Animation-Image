@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿# ﻿﻿Animation Image Generation
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿# ﻿﻿Animation Image Generation
 
 ## Overview
 
@@ -85,6 +85,29 @@ if __name__ == '__main__':
 ```
 
 And if you want to get images from other websites, you should fulfill your own crawlers.
+
+500个epoch后，16张生成结果
+
+![测试生成结果](https://graph.baidu.com/resource/112310e8fd8aef6f95c5001561174805.jpg)
+
+650个epoch后，64张生成结果
+
+![测试生成结果](https://graph.baidu.com/resource/112cd5c2eb943aa6d3d2c01561174998.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
