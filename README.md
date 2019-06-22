@@ -90,9 +90,14 @@ And if you want to get images from other websites, you should fulfill your own c
 
 ![测试生成结果](https://graph.baidu.com/resource/112310e8fd8aef6f95c5001561174805.jpg)
 
-650个epoch后，64张生成结果
+Web界面首页
 
-![测试生成结果](https://graph.baidu.com/resource/112cd5c2eb943aa6d3d2c01561174998.jpg)
+![首页](https://graph.baidu.com/resource/11291ab1b6d727a4c8b7101561204394.jpg)
+
+Web界面-查看当前排行榜
+
+![排行榜](https://graph.baidu.com/resource/112e1256a6777e7a3976201561204434.jpg)
+
 
 
 
