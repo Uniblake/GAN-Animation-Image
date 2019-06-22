@@ -1,0 +1,29 @@
+{
+  "groups": [{
+    "name": "exp-platform.datasource",
+    "type": "com.example.framework.db.config.DBProperty",
+    "sourceType": "com.example.framework.db.config.DBProperty"
+  }],
+  "properties": [
+    {
+      "name": "exp-platform.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.framework.db.config.DBProperty"
+    },
+    {
+      "name": "exp-platform.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.framework.db.config.DBProperty"
+    },
+    {
+      "name": "exp-platform.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.framework.db.config.DBProperty"
+    },
+    {
+      "name": "exp-platform.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.example.framework.db.config.DBProperty"
+    }
+  ]
+}

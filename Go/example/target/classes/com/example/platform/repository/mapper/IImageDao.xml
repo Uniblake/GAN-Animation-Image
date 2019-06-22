@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.platform.repository.mapper.IImageDao">
+    <select id="rank_image" resultType="com.example.platform.domain.Image">
+       select pid,path,likes,dislikes,abslikes from icon order by abslikes desc limit 50
+    </select>
+    <select id="rand_image" resultType="com.example.platform.domain.Image">
+        SELECT pid,path,likes,dislikes,abslikes  FROM icon WHERE pid IN (select pid from (SELECT pid FROM icon ORDER BY RAND() LIMIT 10) as t)
+    </select>
+    <update id="AddSupport">
+        update icon set likes = likes + 1, abslikes = abslikes + 1 where pid = #{0}
+    </update>
+    <update id="AddAgainst">
+        update icon set dislikes = dislikes + 1, abslikes = abslikes - 1 where pid = #{0}
+    </update>
+    <insert id="Submit" >
+        insert into icon values(null,#{0},#{1},#{2},#{3});
+    </insert>
+</mapper>
